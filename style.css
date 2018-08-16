@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body::-webkit-scrollbar {
+    width: 0.5em;
+    background-color: rgba(0, 0, 0, 0.71);
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgb(0, 0, 0);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 0);
+    outline: 1px solid #000000;
+}
+
+
+
+
+.header{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    min-height: 95vh;
+    background-image: url("images/linkedin_bw.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.web{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    min-height: 30vh;
+    background-image: url("images/linkedin_bw.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    min-height: 10vh;
+    background-image: url("images/linkedin_bw.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footertxt{
+    color: white;
+}
+.footertxt a{
+    color: #00cc00;
+}
+.footertxt a:hover{
+    color: black;
+    text-decoration: none;
+}
+.headerfilter{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.41);
+}
+.footerfilter{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.41);
+}
+.webfilter{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.47);
+}
+.h{
+    height: 500px;
+}
+#fuul{
+    color: rgb(254, 254, 254);
+}
+.h1{
+    font-size: 10vh ;
+}
+#h5,#h52{
+    margin-top: 0 ;
+    font-size: 3vh;
+}
+
+.h5{
+    font-size:7vh;
+}
+
+.portfolio,.aboutme{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.71) ;
+}
+.mypic{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+
+
+
+    }
+
+.a{
+    color: #00cc00;
+}
+.a:hover{
+    color: #000000;
+    text-decoration: none;
+}
+.templatestxt{
+    color: white;
+    font-size: 4vh;
+}
+.templatestxt2{
+    color: white;
+    font-size: 2vh;
+}
+
+
+.img1:hover{
+    opacity: 0.5;
+    -ms-transform: scale(0.97); /* IE 9 */
+    -webkit-transform: scale(0.97); /* Safari 3-8 */
+    transform: scale(0.97);
+    transition: all 0.5s ease ;
+}
+
+.business{
+
+    color: white;
+    font-size: 9vh;
+}
+.cvtxt{
+    font-size: 3vh;
+}
+.icon{
+    border: solid #ffffff;
+}
+
+
+.icon:hover{
+    background-color: #000000;
+    border: solid black;
+}
+.icon img:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+.contackts li{
+    color: #00cc00;
+    font-size: 3vh;
+}
+.my{
+    /*color: #00cc00;*/
+    font-size: 3vh;
+}
+.bold{
+    font-family: Quicksand ;
+}
+
+.regular{
+    font-family: sans-serif ;
+}
+
+
+.pacifico{
+    font-family: Lobster ;
+}
+@media (max-width: 1000px) {
+    .aboutme1{
+        flex-direction: column;
+    }
+
+}
+@media (max-width: 767px) {
+    .myprojects{
+        flex-direction: column;
+    }
+    .footertxt,#h5,#h52,.h5,.business{
+        font-size: 2vh;
+    }
+    .h1{
+        font-size: 7vh;
+    }
+    .mypic{
+        width: 300px;
+        height: 300px;
+    }
+    .header,.web,.footer{
+        background-attachment: scroll;
+    }
+
+}
+
+.titletxt{
+    /*font-size: 2vh;*/
+}
+
+.cvname::first-letter {
+    font-size: 200%;
+    color: #dbdbdb;
+
+}
+.education:hover{
+    text-decoration: none;
+    color: #000000;
+}
+.education{
+    color: #00cc00;
+}
